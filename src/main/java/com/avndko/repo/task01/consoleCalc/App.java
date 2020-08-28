@@ -1,10 +1,10 @@
 package main.java.com.avndko.repo.task01.consoleCalc;
 
-import main.java.com.avndko.repo.task01.consoleCalc.core.ConsoleCalc;
+import static main.java.com.avndko.repo.task01.consoleCalc.core.ConsoleCalc.calculate;
 
 public class App {
     public static void main(String[] args) {
-        int result= new ConsoleCalc().calculate();
+        int result= calculate();
         System.out.println(result);
     }
 }
