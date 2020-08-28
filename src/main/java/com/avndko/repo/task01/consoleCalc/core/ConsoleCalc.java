@@ -1,4 +1,4 @@
-package main.java.com.avndko.repo.task01.core;
+package main.java.com.avndko.repo.task01.consoleCalc.core;
 
 import java.util.Scanner;
 
