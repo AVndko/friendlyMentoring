@@ -24,4 +24,5 @@ hs_err_pid*
 *.iml
 .idea/*
 .out/*
-/.gradle/*
+/src/main/java/com/avndko/repo/sandbox/
+/.gradle/

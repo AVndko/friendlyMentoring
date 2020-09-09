@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Cinema {
-    private final static String[][] FIELD= new String[10][10];
+    private final static String[][] FIELD = new String[10][10];
     private static int count = 0;
 
     private void fieldFill() {
