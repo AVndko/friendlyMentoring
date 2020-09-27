@@ -5,10 +5,11 @@ import main.java.com.avndko.repo.task04.fibonacci.core.*;
 
 public class App {
     public static void main(String[] args) {
-        Fibonacci f = new Fibonacci();
-        int x = f.recursionFibonacci(25);
+        int n = 25;
+        Fibonacci f = new Fibonacci(n);
+        int x = f.recursionFibonacci(n);
         System.out.println(x);
-//        System.out.println();
-//        System.out.println(f);
+        System.out.println();
+        System.out.println(f);
     }
 }
